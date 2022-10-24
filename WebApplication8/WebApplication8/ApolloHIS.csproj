@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\Style.css" />
-    <Content Include="PatientRegistration.aspx" />
+    <Content Include="images\home1.jpg" />
     <Content Include="Dashboard.aspx" />
     <Content Include="images\Home.jpg" />
     <Content Include="images\logout.jpg" />
@@ -132,6 +132,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\qa-apollo-hospital - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\qa-apollo-hospitals - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -168,13 +170,6 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PatientRegistration.aspx.cs">
-      <DependentUpon>PatientRegistration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PatientRegistration.aspx.designer.cs">
-      <DependentUpon>PatientRegistration.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

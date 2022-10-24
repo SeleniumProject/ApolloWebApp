@@ -25,7 +25,15 @@ namespace WebApplication8
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Dashboard.aspx", true);
+            if (!TextBox3.Text.Contains("@") || !TextBox3.Text.Contains("."))
+            {
+                emailerror.Text = "Invalid email address";
+            }
+            else
+            {
+                Response.Redirect("Dashboard.aspx", true);
+            }
+               
         }
     }
 }

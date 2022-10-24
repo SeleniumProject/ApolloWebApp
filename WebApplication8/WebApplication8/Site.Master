@@ -13,9 +13,17 @@
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="~/Login.aspx" rel="shortcut icon" type="image/x-icon" />
+    <style>
+        body{
+                background-image:url('images/Home.png');
+            background-repeat:no-repeat;
+    background-attachment:fixed;
+        }
+      
+    </style>
 </head>
+
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
