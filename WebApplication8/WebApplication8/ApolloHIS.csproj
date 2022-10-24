@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\Style.css" />
+    <Content Include="FrontOffice_PatientRegistration.aspx" />
     <Content Include="images\home1.jpg" />
     <Content Include="Dashboard.aspx" />
     <Content Include="images\Home.jpg" />
@@ -176,6 +177,13 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontOffice_PatientRegistration.aspx.cs">
+      <DependentUpon>FrontOffice_PatientRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontOffice_PatientRegistration.aspx.designer.cs">
+      <DependentUpon>FrontOffice_PatientRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

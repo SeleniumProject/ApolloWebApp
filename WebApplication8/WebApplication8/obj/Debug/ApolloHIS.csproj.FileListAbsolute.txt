@@ -150,3 +150,4 @@ C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\D
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.CopyComplete
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\WebApplication8.dll
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\WebApplication8.pdb
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.AssemblyReference.cache
