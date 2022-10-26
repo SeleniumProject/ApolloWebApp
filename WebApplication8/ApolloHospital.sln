@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloHIS", "WebApplication8\ApolloHIS.csproj", "{D7147E47-642B-4626-9FF4-245F62E6B4D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDBConnection", "AppDBConnection\AppDBConnection.csproj", "{7F57779A-19C8-403D-B774-2B7C74E33153}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "..\..\Database1\Database1.sqlproj", "{7CD5A519-BB11-4CB1-91D4-785453CAFE50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{D7147E47-642B-4626-9FF4-245F62E6B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7147E47-642B-4626-9FF4-245F62E6B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7147E47-642B-4626-9FF4-245F62E6B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F57779A-19C8-403D-B774-2B7C74E33153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F57779A-19C8-403D-B774-2B7C74E33153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F57779A-19C8-403D-B774-2B7C74E33153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F57779A-19C8-403D-B774-2B7C74E33153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD5A519-BB11-4CB1-91D4-785453CAFE50}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

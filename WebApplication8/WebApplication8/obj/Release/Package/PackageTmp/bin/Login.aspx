@@ -1,18 +1,20 @@
 ﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication8.Login" %>
-
+ 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h2>
+    <h5><%: Title %>
+    <asp:Panel ID="Panel1" runat="server"  BackImageUrl="~/images/home1.jpg" Height="623px">
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h2>
     <h3>&nbsp;</h3>
     <address>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Email Address: <span style="color: #FF0000">*</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-        <asp:TextBox ID="TextBox1" placeholder="Enter the Email address" runat="server" Width="301px" TextMode="Email"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Email Address Required!" ForeColor="Red"></asp:RequiredFieldValidator>
+        <asp:TextBox ID="TextBox1" placeholder="Enter the Email address" runat="server" Width="200px" TextMode="Email"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Email Address Required! or Invalid Email" ForeColor="Red"></asp:RequiredFieldValidator>
     </address>
 <address>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
         Password:&nbsp;<span style="color: #FF0000">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox2" placeholder="Enter the Password" runat="server" Width="300px" TextMode="Password"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" placeholder="Enter the Password" runat="server" Width="200px" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="Password is required!" ForeColor="Red"></asp:RequiredFieldValidator>
     </address>
     <address>
@@ -29,5 +31,6 @@
         <asp:Button ID="Button2" runat="server" Text="Clear" Width="55px" OnClick="Button2_Click" style="font-size: small; background-color: #FFCCFF" />
     </address>
 
-  
+     </asp:Panel>
 </asp:Content>
+      

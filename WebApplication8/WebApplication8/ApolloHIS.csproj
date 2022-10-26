@@ -106,6 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\Style.css" />
+    <Content Include="images\pha.jpg" />
+    <Content Include="images\Pharmacy.jpg" />
+    <Content Include="ForgotPassword.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pharmacy.aspx" />
     <Content Include="FrontOffice_PatientRegistration.aspx" />
     <Content Include="images\home1.jpg" />
     <Content Include="Dashboard.aspx" />
@@ -177,6 +183,22 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Pharmacy.aspx.cs">
+      <DependentUpon>Pharmacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pharmacy.aspx.designer.cs">
+      <DependentUpon>Pharmacy.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrontOffice_PatientRegistration.aspx.cs">
       <DependentUpon>FrontOffice_PatientRegistration.aspx</DependentUpon>

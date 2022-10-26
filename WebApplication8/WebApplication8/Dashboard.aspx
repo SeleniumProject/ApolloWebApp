@@ -14,8 +14,8 @@
           <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                        
-                        <li><a runat="server" href="~/PatientRegistration">Front Office</a></li>
-                         <li><a runat="server" href="~/PatientRegistration">Physican</a></li>
+                        <li><a runat="server" href="~/FrontOffice_PatientRegistration">Front Office</a></li>
+                         <li><a runat="server" href="~/Pharmacy">Physican</a></li>
                          <li><a runat="server" href="~/PatientRegistration">Ward</a></li>
                          <li><a runat="server" href="~/PatientRegistration">Pharmacy</a></li>
                          <li><a runat="server" href="~/PatientRegistration">Laboratory</a></li>
