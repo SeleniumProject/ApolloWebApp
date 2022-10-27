@@ -21,7 +21,7 @@
     
 </head>
  
-<body style="height: 611px">
+<body style="height: 632px">
 
     <form id="form1" runat="server">
 
@@ -31,6 +31,7 @@
        <section>
            <h3><%: Title %>
            <asp:Panel ID="Panel1" runat="server"  BackImageUrl="~/images/home1.jpg" Height="623px">
+               <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Dashboard.aspx">&gt; Dashboard</asp:HyperLink>
                <strong>
                <br />
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style1">Front Office - Patient Registration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
@@ -47,7 +48,7 @@
                <br />
                <br />
                Patient Name:<span class="auto-style2">*</span>&nbsp;&nbsp;&nbsp;&nbsp;
-               <asp:TextBox ID="TextBox3" runat="server" placeholder="Mr./Mrs./Miss/Others" Width="200px"></asp:TextBox>
+               <asp:TextBox ID="TextBox3" runat="server" placeholder="Mr.Enter Name" Width="200px"></asp:TextBox>
                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox3" ErrorMessage="Patient Name is required!" style="color: #FF0000; font-size: medium"></asp:RequiredFieldValidator>
                <br />
                <br />
@@ -56,7 +57,7 @@
                </strong>&nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" CssClass="newStyle1">
                    <asp:ListItem>Day Care</asp:ListItem>
                    <asp:ListItem>In Patient</asp:ListItem>
-                   <asp:ListItem Enabled="False">Out Patient</asp:ListItem>
+                   <asp:ListItem Enabled="true">Out Patient</asp:ListItem>
                    <asp:ListItem>Emergency</asp:ListItem>
                </asp:RadioButtonList>
                <strong>
@@ -88,7 +89,7 @@
                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox7" ErrorMessage="Enter Consultation Fee!" style="color: #FF0000"></asp:RequiredFieldValidator>
                <br />
                <br />
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                <asp:Button ID="Button1" runat="server" ForeColor="Black" OnClick="Button1_Click" style="font-weight: 700; background-color: #FF99CC" Text="Submit" />
                &nbsp;&nbsp;
                <asp:Button ID="Button2" runat="server" ForeColor="Black" OnClick="Button2_Click" style="font-weight: 700; background-color: #FF99CC" Text="Reset" />

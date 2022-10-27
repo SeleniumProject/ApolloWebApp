@@ -71,3 +71,4 @@ C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\AppDBConnection\obj\D
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\AppDBConnection\obj\Debug\AppDBConnection.csproj.CopyComplete
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\AppDBConnection\obj\Debug\AppDBConnection.dll
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\AppDBConnection\obj\Debug\AppDBConnection.pdb
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\AppDBConnection\obj\Debug\AppDBConnection.csproj.AssemblyReference.cache

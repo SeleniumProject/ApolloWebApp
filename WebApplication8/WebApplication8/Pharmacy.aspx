@@ -25,9 +25,6 @@
         .auto-style6 {
             width: 143px;
         }
-        .auto-style8 {
-            font-size: medium;
-        }
         .auto-style9 {
             font-weight: normal;
         }
@@ -42,7 +39,7 @@
         }
         .auto-style15 {
             width: 100%;
-            height: 104px;
+            height: 110px;
         }
         .auto-style16 {
             width: 146px;
@@ -78,15 +75,8 @@
             color: #000000;
             font-size: small;
         }
-        .auto-style33 {
-            font-size: small;
-            color: #FFFFFF;
-            background-color: #FF00FF;
-        }
-        .auto-style34 {
-            font-size: small;
-            color: #FFFFFF;
-            background-color: #FF66CC;
+        .auto-style35 {
+            color: #FF0000;
         }
     </style>
     
@@ -96,22 +86,26 @@
 
     <form id="form1" runat="server">
 
-</body>
+
         
     <div>
        <section>
            
            <asp:Panel ID="Panel1" runat="server"  BackImageUrl="~/images/home1.jpg" Height="500px">
-               <h5><strong>
+               <h5>
+                   <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Dashboard.aspx">&gt; Dashboard</asp:HyperLink>
+                   <strong>
                    <br />
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style1">Pharmacy - Cash Issue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
                    <asp:Label ID="successmsg" runat="server" style="color: #009900"></asp:Label>
                    <br />
-                   </strong></h5>
+                   </strong>
+                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" CssClass="auto-style35" ErrorMessage="Name is required!"></asp:RequiredFieldValidator>
+               </h5>
                <table class="auto-style15">
                    <tr>
                        <td class="auto-style32">
-                           <h5 class="auto-style31">Name *</h5>
+                           <h5 class="auto-style31">Name <span class="auto-style35">*</span></h5>
                        </td>
                        <td class="auto-style5">
                            <h5>
@@ -119,7 +113,7 @@
                            </h5>
                        </td>
                        <td class="auto-style12">
-                           <h5 class="auto-style31">%profit on MRP</h5>
+                           <h5 class="auto-style31">&nbsp;&nbsp;&nbsp;&nbsp; %Profit on MRP</h5>
                        </td>
                        <strong>
                        <td class="auto-style30">
@@ -139,7 +133,7 @@
                            </h5>
                        </td>
                        <td class="auto-style12">
-                           <h5 class="auto-style31">Discoun On MRP</h5>
+                           <h5 class="auto-style31">&nbsp;&nbsp;&nbsp;&nbsp; Discount On MRP</h5>
                        </td>
                        <td>
                            <h5>
@@ -149,11 +143,12 @@
                    </tr>
                    <tr>
                        <td class="auto-style32">
-                           <h5 class="auto-style31">Under Group- *</h5>
+                           <h5 class="auto-style31">Under Group&nbsp; <span class="auto-style35">*</span></h5>
                        </td>
                        <td class="auto-style5">
                            <h5>
                                <asp:DropDownList ID="DropDownList1" runat="server" CssClass="auto-style30" Height="20px" Width="271px">
+                                   <asp:ListItem>Select</asp:ListItem>
                                    <asp:ListItem>Cough Syrup</asp:ListItem>
                                    <asp:ListItem>Stomoch Pain</asp:ListItem>
                                    <asp:ListItem>Throat Infection</asp:ListItem>
@@ -164,7 +159,7 @@
                            </h5>
                        </td>
                        <td class="auto-style12">
-                           <h5 class="auto-style31">Discount</h5>
+                           <h5 class="auto-style31">&nbsp;&nbsp;&nbsp;&nbsp; Discount</h5>
                        </td>
                        <td>
                            <h5>
@@ -185,7 +180,7 @@
                            </h5>
                        </td>
                        <td class="auto-style12">
-                           <h5 class="auto-style31">Purchase Unit</h5>
+                           <h5 class="auto-style31">&nbsp;&nbsp;&nbsp;&nbsp; Purchase Unit</h5>
                        </td>
                        <td>
                            <h5>
@@ -207,11 +202,11 @@
                            </h5>
                        </td>
                        <td class="auto-style12">
-                           <h5 class="auto-style31">RackNo </h5>
+                           <h5 class="auto-style31">&nbsp;&nbsp;&nbsp;&nbsp; RackNo </h5>
                        </td>
                        <td>
                            <h5>
-                               <asp:TextBox ID="TextBox9" runat="server" CssClass="auto-style30" Width="264px"></asp:TextBox>
+                               <asp:TextBox ID="TextBox9" runat="server" CssClass="auto-style30" Width="264px" Height="16px"></asp:TextBox>
                            </h5>
                        </td>
                    </tr>
@@ -221,36 +216,24 @@
                        </td>
                        <td class="auto-style17">
                            <h5 class="auto-style9">
-                               <asp:RadioButton ID="RadioButton1" runat="server" CssClass="auto-style30" Text="Yes" />
+                               <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="55px">
+                                   <asp:ListItem>Yes</asp:ListItem>
+                                   <asp:ListItem>No</asp:ListItem>
+                               </asp:RadioButtonList>
                            </h5>
                        </td>
                        <td class="auto-style18">
                            <h5 class="auto-style9">
-                               <asp:RadioButton ID="RadioButton2" runat="server" CssClass="auto-style30" Text="No" />
-                           </h5>
+                               Under Age Recommend</h5>
                        </td>
                        <td class="auto-style19">
-                           <h5></h5>
-                       </td>
-                   </tr>
-                   <tr>
-                       <td class="auto-style32">
-                           <h5 class="auto-style31">Under Age Recommend</h5>
-                       </td>
-                       <td class="auto-style5">
-                           <h5 class="auto-style9"><strong>
-                               <asp:CheckBox ID="CheckBox1" runat="server" CssClass="auto-style33" Text="&gt;30 Yrs" />
-                               </strong></h5>
-                       </td>
-                       <td class="auto-style6">
-                           <h5 class="auto-style9"><strong>
-                               <asp:CheckBox ID="CheckBox2" runat="server" CssClass="auto-style33" Text="&lt;20yrs" />
-                               </strong></h5>
-                       </td>
-                       <td>
-                           <h5 class="auto-style9"><strong>
-                               <asp:CheckBox ID="CheckBox3" runat="server" CssClass="auto-style34" Text="Below 5yrs" />
-                               </strong></h5>
+                           <h5>
+                               <asp:CheckBoxList ID="CheckBoxList1" runat="server" Height="63px">
+                                   <asp:ListItem>Above 30 yrs</asp:ListItem>
+                                   <asp:ListItem>Below 20 yrs</asp:ListItem>
+                                   <asp:ListItem>Under 5 yrs</asp:ListItem>
+                               </asp:CheckBoxList>
+                           </h5>
                        </td>
                    </tr>
                    <tr>
@@ -270,6 +253,7 @@
 
     </form>
 
+    </body>
 
 
 </html>

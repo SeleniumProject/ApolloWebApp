@@ -30,11 +30,21 @@ namespace WebApplication8
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            successmsg.Text = "You have successfully Registered : ID: " + TextBox2.Text;
-            TextBox3.Text = "";
-            TextBox5.Text = "";
-            TextBox6.Text = "";
-            TextBox7.Text = "";
+            string fee = TextBox7.Text;
+            int value = Int16.Parse(fee);
+            if (value==0)
+            {
+                Response.Write("<script>alert('You have entered Zero.')</script>");
+            }
+            else
+            {
+                successmsg.Text = "You have successfully Registered : ID: " + TextBox2.Text;
+                TextBox3.Text = "";
+                TextBox5.Text = "";
+                TextBox6.Text = "";
+                TextBox7.Text = "";
+            }
+           
         }
 
         protected void Button2_Click(object sender, EventArgs e)

@@ -75,3 +75,6 @@ C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\R
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Release\ApolloHIS.csproj.CopyComplete
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Release\WebApplication8.dll
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Release\WebApplication8.pdb
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\ForgotPassword.aspx
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\ForgotPassword.aspx.cs
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\ForgotPassword.aspx.designer.cs
