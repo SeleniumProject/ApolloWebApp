@@ -74,8 +74,6 @@ C:\Users\LT-RAKU\source\repos\WebApplication8\WebApplication8\obj\Debug\ApolloHI
 C:\Users\LT-RAKU\source\repos\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.CopyComplete
 C:\Users\LT-RAKU\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplication8.dll
 C:\Users\LT-RAKU\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplication8.pdb
-C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.AssemblyReference.cache
-C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.CoreCompileInputs.cache
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\ForgotPassword.aspx
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\Login.aspx
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\ForgotPassword.aspx.cs
@@ -151,6 +149,8 @@ C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\N
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\Antlr3.Runtime.pdb
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.CoreCompileInputs.cache
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.CopyComplete
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\WebApplication8.dll
 C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\WebApplication8.pdb
+C:\Users\LT-RAKU\Source\Repos\ApolloWebApp\WebApplication8\WebApplication8\obj\Debug\ApolloHIS.csproj.AssemblyReference.cache

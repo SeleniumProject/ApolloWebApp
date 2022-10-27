@@ -111,6 +111,12 @@
     <Content Include="ForgotPassword.aspx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\Ward.jpg" />
+    <Content Include="images\ward1.jpg" />
+    <Content Include="images\ward2.jpg" />
+    <Content Include="images\wards.jpg" />
+    <Content Include="images\war2.jpg" />
+    <Content Include="Ward.aspx" />
     <Content Include="Pharmacy.aspx" />
     <Content Include="FrontOffice_PatientRegistration.aspx" />
     <Content Include="images\home1.jpg" />
@@ -192,6 +198,13 @@
     <Compile Include="ForgotPassword.aspx.designer.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Ward.aspx.cs">
+      <DependentUpon>Ward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ward.aspx.designer.cs">
+      <DependentUpon>Ward.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pharmacy.aspx.cs">
       <DependentUpon>Pharmacy.aspx</DependentUpon>

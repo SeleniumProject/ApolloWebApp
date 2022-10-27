@@ -16,7 +16,7 @@
                        
                         <li><a runat="server" href="~/FrontOffice_PatientRegistration">Front Office</a></li>
                          <li><a runat="server" href="~/FrontOffice_PatientRegistration">Physican</a></li>
-                         <li><a runat="server" href="~/FrontOffice_PatientRegistration">Ward</a></li>
+                         <li><a runat="server" href="~/Ward">Ward</a></li>
                          <li><a runat="server" href="~/Pharmacy">Pharmacy</a></li>
                          <li><a runat="server" href="~/PatientRegistration">Laboratory</a></li>
                          <li><a runat="server" href="~/PatientRegistration">Food and Beverages</a></li>
