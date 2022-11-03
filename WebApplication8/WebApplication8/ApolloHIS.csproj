@@ -105,7 +105,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Apollo.mdf" />
+    <Content Include="App_Data\Apollo_log.ldf">
+      <DependentUpon>Apollo.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Registration.mdf" />
+    <Content Include="App_Data\Registration_log.ldf">
+      <DependentUpon>Registration.mdf</DependentUpon>
+    </Content>
     <Content Include="css\Style.css" />
+    <Content Include="images\logos.gif" />
+    <Content Include="images\logos.jpg" />
     <Content Include="images\pha.jpg" />
     <Content Include="images\Pharmacy.jpg" />
     <Content Include="ForgotPassword.aspx">
@@ -278,9 +288,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
